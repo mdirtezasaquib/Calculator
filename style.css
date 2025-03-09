@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -7,6 +11,7 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); 
     margin: 0;
+    overflow: hidden;
 }
 
 .calculator {
@@ -69,6 +74,7 @@ button:nth-child(16) {
 @media (max-width: 400px) {
     .calculator {
         width: 90%;
+        max-width: 280px;
     }
     button {
         height: 50px;
