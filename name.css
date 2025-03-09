@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    margin: 0;
+}
+.dabba {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 280px;
+    border: 2px solid gray;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+input {
+    margin-top: 20px;
+    width: 86%;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button {
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 400px) {
+    .dabba {
+        width: 90%;
+    }
+}
