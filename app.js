@@ -6,7 +6,7 @@ function saveName() {
 
         if(name!=""){
         localStorage.setItem("userName", name); 
-        window.location.href = "index.html"; 
+        window.location.href = "calculator.html"; 
         }
         else{
             console.log("Error");

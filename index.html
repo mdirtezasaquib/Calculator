@@ -3,43 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>India's No'1 Calculator</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Login-Name</title>
+    <link rel="stylesheet" href="name.css">
 </head>
 <body>
 
-    <div class="calculator">
-        <h2>CODING AGE</h2>
-        <h2>( India's No'1 Calculator )</h2>
-        <h2 id="user-name"></h2>
-        <input type="text" id="display" disabled> 
-        
-        <div class="buttons">
-            <button onclick="clearDisplay()">AC</button>
-            <button onclick="addToDisplay('%')">%</button>
-            <button onclick="addToDisplay('/')">/</button>
-            <button onclick="addToDisplay('*')">X</button>
-            <button onclick="addToDisplay('7')">7</button>
-            <button onclick="addToDisplay('8')">8</button>
 
-            <button onclick="addToDisplay('9')">9</button>
-            <button onclick="addToDisplay('-')">-</button>
-            <button onclick="addToDisplay('4')">4</button>
-            <button onclick="addToDisplay('5')">5</button>
-
-            <button onclick="addToDisplay('6')">6</button>
-            <button onclick="addToDisplay('+')">+</button>
-            <button onclick="addToDisplay('1')">1</button>
-            <button onclick="addToDisplay('2')">2</button>
-
-            <button onclick="addToDisplay('3')">3</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="addToDisplay('.')">.</button>
-            <button onclick="addToDisplay('0')">0</button>
-            <button onclick="addToDisplay('00')">00</button>
-        </div>
+    <div class="dabba">
+       <p> <span style="color: red;">Warning ! </span>Please enter your name before proceeding -- Your name is required to continue.</p> 
+        <h2>Welcome! Enter Your Name</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="saveName()">Proceed</button>
     </div>
 
-    <script src="app.js"></script> 
+
+    <script src="app.js"> </script>
+
+
 </body>
 </html>
