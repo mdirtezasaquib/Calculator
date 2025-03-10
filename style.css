@@ -74,7 +74,7 @@ button:nth-child(16) {
 @media (max-width: 400px) {
     .calculator {
         width: 90%;
-        max-width: 280px;
+        max-width: 300px;
     }
     button {
         height: 50px;
