@@ -4,12 +4,13 @@ function saveName() {
     let nameInput = document.getElementById("username"); 
     let name = nameInput.value; 
 
-        if(name!=""){
+        if(name.trim() !== ""){
         localStorage.setItem("userName", name); 
         window.location.href = "calculator.html"; 
         }
         else{
-            console.log("Error");
+            let p = document.querySelector("p");
+            p.style.border = "1px solid red";
         }
 }
 
