@@ -7,6 +7,7 @@ body {
     background: white;
     margin: 0;
     padding: 10px; 
+     overflow: hidden;
 }
 
 .dabba {
